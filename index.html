@@ -1,530 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Meta Tags -->
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <!-- Author -->
-    <meta name="author" content="Themes Industry">
-    <!-- description -->
-    <meta name="description"
-        content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with 8 ready home page demos.">
-    <!-- keywords -->
-    <meta name="keywords"
-        content="Creative Startup, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, studio, masonry, grid, faq">
-    <!-- Page Title -->
-    <title>Home Page | Book Me Social</title>
-    <!-- Favicon -->
-    <link rel="icon" href="creative-studio/img/favicon.ico">
-    <!-- Bundle -->
-    <link rel="stylesheet" href="vendor/css/bundle.min.css">
-    <!-- Plugin Css -->
-    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="creative-studio/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="creative-studio/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="vendor/css/swiper.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wilio Survey, Quotation, Review and Register form Wizard by Ansonika.">
+    <meta name="author" content="Ansonika">
+    <title>Brand | Book Me Social</title>
 
-    <link rel="stylesheet" href="vendor/css/cubeportfolio.min.css">
-    <!-- Revolution Slider CSS Files -->
-    <link rel="stylesheet" href="creative-studio/css/navigation.css">
-    <link rel="stylesheet" href="creative-studio/css/settings.css">
-    <!-- Slick CSS Files -->
-    <link rel="stylesheet" href="vendor/css/slick.css">
-    <link rel="stylesheet" href="vendor/css/slick-theme.css">
-    <!-- Style Sheet -->
-    <link rel="stylesheet" href="creative-studio/css/style.css">
-    <!-- Custom Style CSS File -->
-    <link rel="stylesheet" href="creative-studio/css/custom.css">
-    <style>
-        /* .new_whatspp{
-        width:30px;
-        height:15px;
-        position:relative;
-        bottom:30px;
-    } */
-    </style>
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="../wilio/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../wilio/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="../wilio/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../wilio/img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="../wilio/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../wilio/css/menu.css" rel="stylesheet">
+    <link href="../wilio/css/style.css" rel="stylesheet">
+	<link href="../wilio/css/vendors.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="../wilio/css/custom.css" rel="stylesheet">
+	
+	<!-- MODERNIZR MENU -->
+	<script src="../wilio/js/modernizr.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar-nav" data-offset="90">
+<body>
+	
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+	
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div><!-- /loader_form -->
+	
+	
+	<div class="container-fluid full-height">
+		<div class="row row-height">
+			<div class="col-lg-6 content-left" style="background:red;">
+				<div class="content-left-wrapper">
+					<a href="../index.html" id="logo"><img src="../creative-studio/img/logo.png" alt="" height="35"></a>
+					
+					<!-- /social -->
+					<div>
+						<figure><img src="../wilio/img/info_graphic_1.svg" alt="" class="img-fluid"></figure>
+						<h2>Social Media partner looking for revenue</h2>
+						<p>Choosing the audiences is the most important part in advertising your brand. Showcasing your brand to wrong people is always a waste in resource. We help you in publishing your brand to the right audience.</p>
+						
+					</div>
+					<div class="copy">© 2022 Nexa Tecnology</div>
+				</div>
+				<!-- /content-left-wrapper -->
+			</div>
+			<!-- /content-left -->
 
-    <!-- Loader -->
-    <div class="loader" id="loader-fade">
-        <div class="loader-container">
-            <ul class="loader-box">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </div>
-    <!-- Loader ends -->
+			<div class="col-lg-6 content-right" id="start">
+				<div id="wizard_container">
+					<div id="top-wizard">
+							<div id="progressbar"></div>
+						</div>
+						<!-- /top-wizard -->
+						<form id="wrapped" method="POST">
+							<input id="website" name="website" type="text" value="">
+							<!-- Leave for security protection, read docs for details -->
+							<div id="middle-wizard">
+								<div class="step">
+									<h3 class="main_question"><strong>1/5</strong>Please fill with your details</h3>
+									<div class="form-group">
+										<input type="text" name="firstname" class="form-control required" placeholder="First Name">
+									</div>
+									<div class="form-group">
+										<input type="text" name="lastname" class="form-control required" placeholder="Last Name">
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" class="form-control required" placeholder="Your Email">
+									</div>
+									<div class="form-group">
+										<div class="styled-select clearfix">
+											<select class="wide required" name="country">
+												<option value="">Your Country</option>
+												<option value="Europe">Europe</option>
+												<option value="Asia">Asia</option>
+												<option value="North America">North America</option>
+												<option value="South America">South America</option>
+												<option value="Oceania">Oceania</option>                             
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											<div class="form-group">
+												<input type="text" name="age" class="form-control" placeholder="Age">
+											</div>
+										</div>
+										<div class="col-9">
+											<div class="form-group radio_input">
+												<label class="container_radio">Male
+													<input type="radio" name="gender" value="Male" class="required">
+													<span class="checkmark"></span>
+												</label>
+												<label class="container_radio">Female
+													<input type="radio" name="gender" value="Female" class="required">
+													<span class="checkmark"></span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<!-- /row -->
+									<div class="form-group terms">
+										<label class="container_check">Please accept our <a href="#" data-bs-toggle="modal" data-bs-target="#terms-txt">Terms and conditions</a>
+											<input type="checkbox" name="terms" value="Yes" class="required">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+								<!-- /step-->
+								<div class="step">
+									<h3 class="main_question"><strong>2/5</strong>How do rate your overall satisfaction about the service provided?</h3>
+									<div class="form-group">
+										<label class="container_radio version_2">Not Satisfied
+											<input type="radio" name="question_1" value="Not Satisfied" class="required" onchange="getVals(this, 'question_1');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_radio version_2">Quite Satisfied
+											<input type="radio" name="question_1" value="Quite Satisfied" class="required" onchange="getVals(this, 'question_1');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_radio version_2">Satisfied
+											<input type="radio" name="question_1" value="Satisfied" class="required" onchange="getVals(this, 'question_1');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_radio version_2">Completely Satisfied
+											<input type="radio" name="question_1" value="Completely Satisfied" class="required" onchange="getVals(this, 'question_1');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
 
+									<div class="form-group">
+										<label class="container_radio version_2">Extremely Satisfied
+											<input type="radio" name="question_1" value="Extremely Satisfied" class="required" onchange="getVals(this, 'question_1');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+								<!-- /step-->
+								<div class="step">
+									<h3 class="main_question"><strong>3/5</strong>How did you hear about our company?</h3>
+									<div class="form-group">
+										<label class="container_check version_2">Google Search Engine
+											<input type="checkbox" name="question_2[]" value="Google Search Engine" class="required" onchange="getVals(this, 'question_2');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_check version_2">A friend of mine
+											<input type="checkbox" name="question_2[]" value="A friend of mine" class="required" onchange="getVals(this, 'question_2');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_check version_2">Print Advertise
+											<input type="checkbox" name="question_2[]" value="Print Advertise" class="required" onchange="getVals(this, 'question_2');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_check version_2">Newspaper
+											<input type="checkbox" name="question_2[]" value="Newspaper" class="required" onchange="getVals(this, 'question_2');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_check version_2">Other
+											<input type="checkbox" name="question_2[]" value="Other" class="required" onchange="getVals(this, 'question_2');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+								<!-- /step-->
+								<div class="step">
+									<h3 class="main_question"><strong>4/5</strong>Do you think to suggest our company to a friend or parent?</h3>
+									<div class="form-group">
+										<label class="container_radio version_2">No
+											<input type="radio" name="question_3" value="No" class="required" onchange="getVals(this, 'question_3');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_radio version_2">Maybe
+											<input type="radio" name="question_3" value="Maybe" class="required" onchange="getVals(this, 'question_3');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_radio version_2">Probably
+											<input type="radio" name="question_3" value="Probably" class="required" onchange="getVals(this, 'question_3');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label class="container_radio version_2">100% Sure
+											<input type="radio" name="question_3" value="100% Sure" class="required" onchange="getVals(this, 'question_3');">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="form-group">
+										<label>In no, please describe with few words why</label>
+										<textarea name="additional_message" class="form-control" style="height:100px;" placeholder="Type here additional info..." onkeyup="getVals(this, 'additional_message');"></textarea>
+									</div>
+								</div>
+								<!-- /step-->
+								<div class="submit step">
+									<h3 class="main_question"><strong>5/5</strong>Summary</h3>
+									<div class="summary">
+										<ul>
+											<li><strong>1</strong>
+												<h5>How do rate your overall satisfaction about the service provided?</h5>
+												<p id="question_1"></p>
+											</li>
+											<li><strong>2</strong>
+												<h5>How did you hear about our company?</h5>
+												<p id="question_2"></p>
+											</li>
+											<li><strong>3</strong>
+												<h5>Do you think to suggest our company to a friend or parent?</h5>
+												<p id="question_3"></p>
+												<p id="additional_message"></p>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- /step-->
+							</div>
+							<!-- /middle-wizard -->
+							<div id="bottom-wizard">
+								<button type="button" name="backward" class="backward">Prev</button>
+								<button type="button" name="forward" class="forward">Next</button>
+								<button type="submit" name="process" class="submit">Submit</button>
+							</div>
+							<!-- /bottom-wizard -->
+						</form>
+					</div>
+					<!-- /Wizard container -->
+			</div>
+			<!-- /content-right-->
+		</div>
+		<!-- /row-->
+	</div>
+	<!-- /container-fluid -->
 
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-nav -->
 
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-content -->
 
-    <!-- Main Section start -->
-    <section id="home" class="p-0 h-100vh cursor-light">
-        <div style="position:relative;">
-            <div style="position:absolute;top:100px;width:100%;">
-                <div class="d-flex justify-content-center">
-                    <img src="creative-studio/img/logo.png" style="width:250px;margin-top:10px;">
-                </div>
-            </div>
-            <div style="position:absolute;top:600px;width:100%;">
-                <div class="d-flex justify-content-center">
-                    All Rights Reserved by Nexa Technology 2022.
-                </div>
-            </div>
-        </div>
-        <h2 class="d-none">heading</h2>
-        <!--Main Slider-->
-        <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="weone"
-            data-source="gallery" style="background:transparent;padding:0px;">
-            <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
-            <div id="rev_slider_8_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.1">
-                <ul><!-- SLIDE  -->
-                    <!-- SLIDE 1 -->
-                    <li data-index="rs-36" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- LAYERS -->
+	
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+	
+	<!-- COMMON SCRIPTS -->
+	<script src="../wilio/js/jquery-3.6.1.min.js"></script>
+    <script src="../wilio/js/common_scripts.min.js"></script>
+	<script src="../wilio/js/velocity.min.js"></script>
+	<script src="../wilio/js/functions.js"></script>
 
-                        <!-- LAYER Text -->
-                        <div class="tp-caption color-yellow" data-x="['center','center','center','center']"
-                            data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']"
-                            data-voffset="['350','200','100','55']" data-fontsize="['60','50','40','40']"
-                            data-lineheight="['75','75','75','40']" data-width="['556','556','556','300']"
-                            data-height="['50','20','20','87']" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":100,"split":"chars","splitdelay":0.1,"speed":1480,"split_direction":"random","frame":"0","from":"y:50px;sX:1;sY:1;opacity:0;fb:20px;","color":"rgba(0,0,0,0)","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","color":"transparent","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 10; min-width: 556px; max-width: 556px; white-space: nowrap; font-size: 60px; line-height: 75px; font-weight: 300; letter-spacing: 0px;font-family: 'Montserrat', sans-serif;">
-                            Are you a</div>
-
-                        <!-- LAYER Text -->
-                        <div class="tp-caption color-black" data-x="['center','center','center','center']"
-                            data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']"
-                            data-voffset="['430','260','155','98']" data-fontsize="['60','40','40','20']"
-                            data-lineheight="['75','75','45','45']" data-width="['1500','1500','1500','1000']"
-                            data-height="['none','none','none','87']" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":150,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 10; min-width: 960px; max-width: 960px; white-space: nowrap; font-weight: 700; letter-spacing: 0px;font-family: 'Montserrat', sans-serif;">
-                            <div id="js-rotating">Brand Owner needs to Advertise, Social Media Partner looking for
-                                Revenue</div>
-                        </div>
-
-                        <!-- LAYER Button -->
-                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']"
-                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                            data-voffset="['140','50','0','0']"
-                            data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:2px 2px 2px 2px;"}]'
-                            data-textAlign="['center','center','center','center']"
-                            data-width="['500','500','500','500']"
-                            style="z-index: 10; min-width: 960px; max-width: 2000px">
-                            <a href="brand/index.html" style="font-size:20px;"
-                                class="btn-setting color-black btn-hvr-up btn-hvr-yellow link">I am a Brand</a>
-                            <a href="partner/partner-form-1.html" style="font-size:20px;"
-                                class="btn-setting color-black btn-hvr-up btn-hvr-yellow link">I am a Social Media
-                                Partner</a>
-                        </div>
-
-                        <!-- LAYER Cylinder -->
-                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']"
-                            data-hoffset="['-20','-20','-20','-20']" data-y="['top','top','top','top']"
-                            data-voffset="['100','0','-150','-150']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:bottom;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="12"
-                                data-xs="0" data-xe="60" data-ys="100" data-ye="60"><img
-                                    src="creative-studio/img/slider-shape1.png" alt=""
-                                    data-ww="['51px','51px','51px','51px']" data-hh="['52px','52px','52px','52px']"
-                                    data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Top Wave Pink -->
-                        <div class="tp-caption tp-resizeme" data-x="['right','right','right','right']"
-                            data-hoffset="['150','150','30','30']" data-y="['top','top','top','top']"
-                            data-voffset="['160','80','-100','-100']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <!-- <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="12"
-                                data-xs="0" data-xe="-50" data-ys="50" data-ye="20"><img
-                                    src="creative-studio/img/slider-shape2.png" alt=""
-                                    data-ww="['50px','50px','50px','50px']" data-hh="['14px','14px','14px','14px']"
-                                    data-no-retina> </div> -->
-                        </div>
-
-                        <!-- LAYER Semi Circle -->
-                        <div class="tp-caption tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['250','80','80','30']" data-y="['top','top','top','top']"
-                            data-voffset="['227','-16','-16','-36']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:right;y:bottom;rZ:360deg;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-rotate" data-easing="Power0.easeIn" data-startdeg="0"
-                                data-enddeg="360" data-speed="15" data-origin="50% 50%"><img
-                                    src="creative-studio/img/slider-shape3.png" alt=""
-                                    data-ww="['67px','67px','67px','67px']" data-hh="['69px','69px','69px','69px']"
-                                    data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Circle Gray Small -->
-                        <div class="tp-caption" data-x="['right','right','right','right']"
-                            data-hoffset="['300','200','100','100']" data-y="['bottom','bottom','center','center']"
-                            data-voffset="['200','50','200','200']" data-whitespace="normal" data-type="image"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1490,"frame":"0","from":"x:center;y:top;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 2;">
-                            <div class="rs-looped rs-wave" data-speed="12" data-angle="90" data-radius="22px"
-                                data-origin="50% 50%">
-                                <div class="animated-wrap slider-social icon-small">
-                                    <div
-                                        class="animated-element icon-box-small bg-gray-two pinterest-bg-hvr d-flex justify-content-center align-items-center">
-                                        <a class="pinterest-text-hvr" style="cursor:default;"
-                                            href="javascript:void(0);">
-                                            <i class="fab fa-youtube font-16" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- LAYER Circle Pink Small -->
-                        <div class="tp-caption" data-x="['left','left','left','left']"
-                            data-hoffset="['350','350','120','120']" data-y="['bottom','bottom','center','center']"
-                            data-voffset="['80','0','200','200']" data-width="none" data-height="none"
-                            data-whitespace="normal" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1490,"frame":"0","from":"y:center;x:bottom;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 2;">
-
-                            <div class="rs-looped rs-wave" data-speed="12" data-angle="-90" data-radius="22px"
-                                data-origin="-50% -50%">
-                                <div class="animated-wrap slider-social icon-small">
-                                    <div
-                                        class="animated-element icon-box-small bg-pink-two instagram-bg-hvr d-flex justify-content-center align-items-center">
-                                        <a class="instagram-text-hvr" style="cursor:default;"
-                                            href="javascript:void(0);">
-                                            <i class="fab fa-instagram font-16" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <!-- LAYER Circle Yellow -->
-                        <div class="tp-caption" data-x="['right','right','right','right']"
-                            data-hoffset="['-110','-20','0','0']" data-y="['middle','middle','bottom','bottom']"
-                            data-voffset="['200','300','50','10']" data-width="none" data-height="none"
-                            data-whitespace="normal" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1490,"frame":"0","from":"x:center;y:top;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 2;">
-
-                            <div class="rs-looped rs-wave" data-speed="19" data-angle="45" data-radius="22px"
-                                data-origin="50% 50%">
-                                <div class="animated-wrap slider-social icon-small">
-                                    <div
-                                        class="animated-element icon-box-large-two bg-yellow twitter-bg-hvr d-flex justify-content-center align-items-center">
-                                        <a class="twitter-text-hvr" style="cursor:default;" href="javascript:void(0);">
-                                            <i class="fab fa-twitter font-20" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- LAYER Circle Pink -->
-                        <div class="tp-caption" data-x="['left','left','left','left']"
-                            data-hoffset="['-250','-20','0','0']" data-y="['middle','middle','bottom','bottom']"
-                            data-voffset="['70','70','100','100']" data-width="none" data-height="none"
-                            data-whitespace="normal" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1490,"frame":"0","from":"y:center;x:bottom;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 2;">
-
-                            <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="12"
-                                data-xs="0" data-xe="0" data-ys="-10" data-ye="60">
-                                <div class="animated-wrap slider-social icon-small">
-                                    <div
-                                        class="animated-element icon-box-large bg-pink facebook-bg-hvr d-flex justify-content-center align-items-center">
-                                        <a class="facebook-text-hvr" style="cursor:default;" href="javascript:void(0);">
-                                            <i class="fab fa-facebook-f font-20" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- LAYER Bottom Wave Gray -->
-                        <div class="tp-caption tp-resizeme" data-x="['right','right','right','right']"
-                            data-hoffset="['-200','-200','-5000','-5000']"
-                            data-y="['bottom','bottom','bottom','bottom']" data-voffset="['150','150','150','150']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="12"
-                                data-xs="0" data-xe="0" data-ys="10" data-ye="-50"><img
-                                    src="creative-studio/img/slider-shape4.png" alt=""
-                                    data-ww="['24px','24px','24px','24px']" data-hh="['87px','87px','87px','87px']"
-                                    data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Bottom Diamond -->
-                        <div class="tp-caption tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['83','66','20','20']" data-y="['bottom','bottom','bottom','bottom']"
-                            data-voffset="['200','80','-100','-100']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="12"
-                                data-ys="-40" data-ye="40" data-xs="0" data-xe="20"><img
-                                    src="creative-studio/img/slider-shape5.png" alt=""
-                                    data-ww="['44px','44px','44px','44px']" data-hh="['87px','87px','87px','87px']"
-                                    data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Top Diamond -->
-                        <!-- <div class="tp-caption tp-resizeme" data-x="['right','right','right','right']"
-                            data-hoffset="['150','150','50','50']" data-y="['top','top','top','top']"
-                            data-voffset="['70','-70','-130','-130']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-wave" data-speed="12" data-angle="90" data-radius="12px"
-                                data-origin="0% 0%"><img src="creative-studio/img/slider-shape6.png" alt=""
-                                    data-ww="['44px','44px','44px','44px']" data-hh="['87px','87px','87px','87px']"
-                                    data-no-retina> </div>
-                        </div> -->
-
-                        <!-- LAYER Top Left -->
-                        <div class="tp-caption" data-x="['left','left','left','left']"
-                            data-hoffset="['-500','-500','5000','5000']" data-y="['top','top','top','top']"
-                            data-voffset="['-100','-100','0','0']" data-whitespace="nowrap"
-                            data-width="['394px','394px','394px','394px']"
-                            data-height="['393px','393px','393px','393px']" data-responsive_offset="on"
-                            data-frames='[{"delay":319.921875,"speed":500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-rotate" data-easing="Power0.easeIn" data-speed="150"
-                                data-startdeg="0" data-enddeg="360" data-origin="45% 45%"><img
-                                    src="creative-studio/img/circle-top-left.png" alt=""
-                                    data-ww="['394px','394px','394px','394px']"
-                                    data-hh="['394px','394px','394px','394px']" data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Top Right Inner -->
-                        <div class="tp-caption" data-x="['left','left','left','left']"
-                            data-hoffset="['1180','1180','5000','5000']" data-y="['top','top','top','top']"
-                            data-voffset="['-200','-200','-200','-200']" data-width="['575px','575px','575px','575px']"
-                            data-height="['571px','571px','571px','571px']"
-                            data-frames='[{"delay":319.921875,"speed":500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-wave" data-speed="6" data-angle="0" data-radius="5px"
-                                data-origin="50% 50%"><img src="creative-studio/img/circle-top-right-inner.png" alt=""
-                                    data-ww="['575px','575px','575px','575px']"
-                                    data-hh="['571px','571px','571px','571px']"> </div>
-                        </div>
-
-                        <!-- LAYER Top Right -->
-                        <div class="tp-caption" data-x="['left','left','left','left']"
-                            data-hoffset="['1280','1280','5000','5000']" data-y="['top','top','top','top']"
-                            data-voffset="['-110','-110','-110','-110']" data-width="['381px','381px','381px','381px']"
-                            data-height="['380px','380px','380px','380px']"
-                            data-frames='[{"delay":319.921875,"speed":500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped" data-easing="Power0.easeInOut" data-speed="0" data-xs="0" data-xe="0"
-                                data-ys="0" data-ye="0"><img src="creative-studio/img/circle-top-right.png" alt=""
-                                    data-ww="['381px','381px','381px','381px']"
-                                    data-hh="['380px','380px','380px','380px']" data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Center -->
-                        <div class="tp-caption tp-resizeme rs-parallaxlevel-8"
-                            data-x="['left','left','center','center']" data-hoffset="['300','300','-5000','-5000']"
-                            data-y="['top','top','middle,'middle']" data-voffset="['50','50','0','0']" data-type="image"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":319.921875,"speed":500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-wave" data-speed="15" data-angle="90" data-radius="12px"
-                                data-origin="50% 50%"><img src="creative-studio/img/circle-center.png" alt=""
-                                    data-ww="['672px','672px','500px','320px']"
-                                    data-hh="['673px','673px','500px','320px']" data-no-retina> </div>
-                        </div>
-
-                        <!-- LAYER Arrows -->
-                        <div class="tp-caption tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['30','30','-20','-100']" data-y="['top','top','top','top']"
-                            data-voffset="['50','50','50','50']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                            data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 1;">
-                            <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="30"
-                                data-xs="-90" data-xe="90" data-ys="0" data-ye="20"><img
-                                    src="creative-studio/img/arrows.png" alt="" data-ww="['97px','97px','97px','97px']"
-                                    data-hh="['98px','98px','98px','98px']" data-no-retina> </div>
-                        </div>
-
-                        <!--whats app-->
-                        <div class="chat_whatsapp">
-                            
-                            <div class="new_whatspp_1">
-                                <a href="https://api.whatsapp.com/send?phone=910000000000">
-                                    <p>Chat our partner team <br> Hi! How can we help you?</p>
-                                    <a href="https://api.whatsapp.com/send?phone=910000000000">
-                                    <img src="blueflower.png"></a>
-                                </a>
-                            </div>
-                            
-                            <div class="whatsapp">
-                                <a href="https://api.whatsapp.com/send?phone=910000000000">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"
-                                        alt="whatsapp"></a>
-                            </div>
-                        </div>
-                        <!--whats app ends-->
-                    </li>
-                </ul>
-                <div class="tp-bannertimer" style="height: 5px; background: rgba(0,0,0,0.15);"></div>
-            </div>
-        </div>
-        <!--Main Slider ends -->
-
-
-    </section>
-    <!-- Main Section end -->
-    <style>
-        .chat_whatsapp {
-            position: relative;
-        }
-        .new_whatspp_1 img{
-            position: absolute;
-            top: 535px;
-            right: 145px;
-            width:30px;
-            height:30px;
-
-        }
-
-        .new_whatspp_1 p {
-            width: 340px !important;
-            height: 100px !important;
-            position: absolute;
-            top: 520px;
-            right: 70px;
-            font-size: 20px;
-            font-weight: 600;
-            /* border: 1px solid black; */
-            padding: 20px;
-            box-shadow: 0 0 10px black;
-            border-radius: 20px;
-        }
-
-        .whatsapp img {
-            width: 70px !important;
-            height: 50px !important;
-            position: absolute;
-            top: 540px;
-            right: 70px;
-            padding-right: 10px;
-        }
-    </style>
-
-
-    <!--Animated Cursor-->
-    <div id="animated-cursor">
-        <div id="cursor">
-            <div id="cursor-loader"></div>
-        </div>
-    </div>
-    <!--Animated Cursor End-->
-
-
-
-
-    <!-- JavaScript -->
-    <script src="vendor/js/bundle.min.js"></script>
-
-    <!-- Plugin Js -->
-    <script src="vendor/js/jquery.fancybox.min.js"></script>
-    <script src="vendor/js/owl.carousel.min.js"></script>
-    <script src="vendor/js/swiper.min.js"></script>
-    <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
-    <script src="vendor/js/jquery.appear.js"></script>
-    <script src="vendor/js/parallaxie.min.js"></script>
-    <script src="vendor/js/wow.min.js"></script>
-    <!-- Owl Carousel JS File -->
-    <script src="creative-studio/js/owl.carousel.js"></script>
-    <!-- Slick JS File -->
-    <script src="vendor/js/slick.min.js"></script>
-    <!-- Tween Max Animation File -->
-    <script src="creative-studio/js/TweenMax.min.js"></script>
-    <!-- Morphtext File -->
-    <script src="creative-studio/js/morphext.min.js"></script>
-    <!-- REVOLUTION JS FILES -->
-    <script src="vendor/js/jquery.themepunch.tools.min.js"></script>
-    <script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- SLIDER REVOLUTION EXTENSIONS -->
-    <script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
-
-    <!-- Google Map Api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgIfLQi8KTxTJahilcem6qHusV-V6XXjw"></script>
-    <script src="creative-studio/js/maps.min.js"></script>
-
-    <!-- custom script -->
-    <script src="creative-studio/js/script.js"></script>
+	<!-- Wizard script -->
+	<script src="../wilio/js/survey_func.js"></script>
 
 </body>
-
 </html>
